@@ -10,7 +10,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: './',
+  experimental: {
+    optimizeCss: false,
+    optimizePackageImports: [],
+    nextScriptWorkers: false,
+  },
 }
 
 export default nextConfig
