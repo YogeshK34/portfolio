@@ -10,11 +10,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    optimizeCss: false,
-    optimizePackageImports: [],
-    nextScriptWorkers: false,
-  },
+  trailingSlash: true,
 }
 
 export default nextConfig
