@@ -1,0 +1,26 @@
+# Make sure the CNAME file is available in the out directory for GitHub Pages
+name: Copy CNAME to build output
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'CNAME'
+
+jobs:
+  copy-cname:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Copy CNAME to public directory
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME public/
+            echo "Copied CNAME file to public directory"
+          else
+            echo "No CNAME file found"
+          fi
