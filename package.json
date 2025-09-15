@@ -6,10 +6,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "predeploy": "npm run build",	
     "lint": "next lint",
-    "start": "next start",
-    "deploy": "gh-pages -d out"
+    "start": "next start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
