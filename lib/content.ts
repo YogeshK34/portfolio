@@ -154,13 +154,13 @@ export const portfolioContent = {
     list: [
       {
         id: 1,
-        title: "Solana Wallet",
+        title: "Qbits Wallet",
         description:
-          "AI-powered storytelling platform where users can create, interact with, and evolve story characters through dynamic AI conversations.",
-        image: "/solanawallet.png",
-        tech: ["Next.js", "Solana SDK", "Rust", "TypeScript", "Heroku"],
-        github: "https://github.com/solana-devs-mit/solana-wallet-production",
-        live: "https://solanawallet.dev/",
+          "Quantum-safe blockchain wallet with ECDSA + Dilithium hybrid signatures on zkSync Era",
+        image: "/qbit.png",
+        tech: ["Dilithium", "ZkRollups", "ZkSnaks", "Cryptography"],
+        github: "https://github.com/yogeshk34/qbit-wallet-eth",
+        live: "https://github.com/yogeshk34/qbit-wallet-eth",
         featured: true,
       },
       {
@@ -194,6 +194,17 @@ export const portfolioContent = {
         tech: ["Solidity", "ERC-721", "BNB Chain", "Web3.js", "Next.js"],
         github: "https://github.com/ReyKan-KP/ScrollForge",
         live: "https://nf-ticket-bnb-d-day.vercel.app/",
+        featured: false,
+      },
+      {
+        id: 5,
+        title: "Solana Wallet",
+        description:
+          "AI-powered storytelling platform where users can create, interact with, and evolve story characters through dynamic AI conversations.",
+        image: "/solanawallet.png",
+        tech: ["Next.js", "Solana SDK", "Rust", "TypeScript", "Heroku"],
+        github: "https://github.com/solana-devs-mit/solana-wallet-production",
+        live: "https://solanawallet.dev/",
         featured: false,
       },
     ],
