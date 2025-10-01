@@ -157,7 +157,7 @@ export const portfolioContent = {
         title: "Qbits Wallet",
         description:
           "Quantum-safe blockchain wallet with ECDSA + Dilithium hybrid signatures on zkSync Era",
-        image: "/qbit.png",
+        image: "/qbit.png?v=1",
         tech: ["Dilithium", "ZkRollups", "ZkSnaks", "Cryptography"],
         github: "https://github.com/yogeshk34/qbit-wallet-eth",
         live: "https://github.com/yogeshk34/qbit-wallet-eth",
