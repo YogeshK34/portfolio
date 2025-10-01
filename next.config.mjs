@@ -12,6 +12,10 @@ const nextConfig = {
   },
   trailingSlash: true,
   assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
+  // Adding build timestamp for cache busting
+  env: {
+    BUILD_TIMESTAMP: new Date().toISOString(),
+  },
 }
 
 export default nextConfig

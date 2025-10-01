@@ -79,6 +79,8 @@ jobs:
       - name: Build with Next.js
         run: |
           export NODE_ENV=production
+          # Clear .next directory for a clean build
+          rm -rf .next
           ${{ steps.detect-package-manager.outputs.manager }} run build
         
       - name: Upload artifact
